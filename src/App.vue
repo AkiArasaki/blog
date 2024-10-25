@@ -3,9 +3,15 @@ import NavBar from './components/NavBar.vue'
 </script>
 
 <template>
-  <NavBar/>
+  <div class="nav">
+    <NavBar/>
+  </div>
   <router-view></router-view>
 </template>
 
 <style scoped>
+.nav {
+  position: absolute;
+  z-index: 100;
+}
 </style>

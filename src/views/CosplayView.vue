@@ -12,6 +12,5 @@ import MediaBar from "@/components/MediaBar.vue";
 <style scoped>
 .temp {
   height: 120vh;
-  background-color: #000000;
 }
 </style>
