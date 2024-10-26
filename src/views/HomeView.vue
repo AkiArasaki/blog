@@ -5,86 +5,31 @@ import MediaBar from "@/components/MediaBar.vue";
 <template>
   <div class="shell">
     <header>
-      <div class="img"></div>
+      <div class="img">
+        <h1>Goodnight</h1>
+        <div class="arrow"></div>
+        <div class="arrow"></div>
+        <div class="arrow"></div>
+      </div>
     </header>
     <div class="main">
       <main>
-        <article>
-          <div class="multicol">
-            <h1>this is the</h1>
-            <h2> の front nest of the goat</h2>
-            <p>
-              This piece of code is a simple static webpage design that showcases a page called "山羊の前端小窝"
-              (Goat's Frontend Nest). In this 800-word summary, I will provide an overview of the code.
-
-              The code begins with the HTML5 DOCTYPE declaration, ensuring that the browser correctly
-              parses and displays the webpage content. It then defines the structure of the HTML document,
-              including the
-
-              head and
-
-              body tags. The
-
-              head tag is used to specify metadata information about the webpage, while the
-
-              body tag contains the actual page content.
-            </p>
-          </div>
-          <img src="@/assets/images/webp/homeView/banner.webp" alt="">
-          <div class="multicol">
-            <p>Within the
-
-              head tag, the
-              meta tag is used to set the character set and viewport size. The character set is set
-              to UTF-8 to ensure that the webpage can support multiple languages and character
-              encodings. The viewport size is set to match the device width, achieving a responsive
-              design that adapts and displays well on different devices.
-
-              Next is the title tag, which sets the webpage title as "山羊の前端小窝" (Goat's Frontend
-              Nest). The title will be displayed in the browser's tab, providing a brief
-              description of the page.
-
-              In the style
-              tag of the code,
-              some CSS styles are defined to control the appearance and layout of the webpage. The global
-              elements' padding and margin are set to zero to eliminate unnecessary spacing. By setting
-              the height of the body element to 2000 pixels and hiding the horizontal scrollbar, vertical
-              scrolling of the page content is achieved.
-
-              The class selector is used to select elements with the class "shell" and set them as a flex
-              layout,
-              stacking the elements vertically. The header element has a width of 100% and a height of 700
-              pixels,
-              with an irregular shape achieved through clip-path,
-              adding visual appeal to the page. The elements with the class "img" are set to relative
-              positioning,
-              filled with a background image,
-              and the background size is set to cover,
-              making the background image adapt to the element's size. The elements with the class "main"
-              are vertically aligned, and the styles of the title and text are set to enhance their
-              appearance.</p>
-          </div>
-          <img src="@/assets/images/webp/homeView/banner.webp" alt="">
-          <div class="multicol">
-            <p>Inside the
-              script tag at the end of the body tag, JavaScript code is embedded.This code uses query
-              selectors to retrieve elements from the page and implements scroll interaction effects using
-              variables and event listeners.
-
-              When a scroll event occurs, the display effects of the header and image are changed by
-              calculating the scroll distance.By setting clip - path and transform scale, the dynamic
-              changes in the shape of the header and the size of the image are achieved.As a result, when
-              users scroll the page, animation effects are triggered, adding dynamism to the page.
-
-              In conclusion, this code showcases a simple static webpage design.By combining HTML, CSS,
-              and JavaScript, it achieves the layout of page elements and scroll interaction effects.From
-              the overall structure of the page to specific style settings and animation implementation,
-              each part is carefully designed to provide users with a pleasant browsing experience.The
-              page appears clean and visually appealing, and the addition of dynamic effects enhances its
-              vitality and attractiveness, capturing users' attention and conveying the intended message
-              of the designer.</p>
-          </div>
-        </article>
+        <div class="content">
+          <h3>AkiArasaki</h3>
+          <p>How nice would it be, if it's midnight forever ...</p>
+        </div>
+        <div class="parallax p1">
+          <h3>How I make money</h3>
+        </div>
+        <div class="content">
+          I survive by creating stuff
+        </div>
+        <div class="parallax p2">
+          <h3>How I spend money</h3>
+        </div>
+        <div class="content">
+          I cosplay for fun
+        </div>
       </main>
     </div>
   </div>
@@ -124,123 +69,98 @@ header {
   background-size: cover;
   transform: scale(1);
   transition: transform 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  filter: brightness(0.9);
 }
-.main {
+.img h1 {
+  margin: auto auto;
+  font-size: 100px;
+  animation: am1 ease-out 1s 0.2s backwards;
+}
+@keyframes am1 {
+  0% {
+    transform: translateY(8px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.arrow {
+  position: relative;
+  width: 1vw;
+  height: 1vw;
+  border-bottom: 2px solid rgba(238, 238, 238, 0.5);
+  border-left: 2px solid rgba(238, 238, 238, 0.5);
+  transform: rotate(-45deg);
+  animation: arrow 2s infinite;
+}
+.arrow:nth-child(1) {
+  animation-delay: -0.2s;
+}
+.arrow:nth-child(2) {
+  animation-delay: -0.1s;
+}
+@keyframes arrow {
+  0% {
+    opacity: 0;
+    transform: rotate(-45deg) translate(30px, -30px);
+  }
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform:rotate(-45deg) translate(0, 0);
+  }
+}
+.parallax {
   width: 100%;
-  height: 100%;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  text-align: justify;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
-  margin-top: 100px;
+  filter: brightness(0.7);
 }
-.main h2 {
-  font-size: 50px;
-  margin-bottom: 40px;
+.p1 {
+  background-image: url("@/assets/images/jpg/homeView/homeView-project.jpg");
 }
-.main span {
-  padding: 0 100px;
-  font-size: 30px;
+.p2 {
+  background-image: url("@/assets/images/jpg/homeView/homeView-cosplay.jpg");
 }
-@import url('https://fonts.googleapis.com/css?family=Lato:700,900');
-@font-face {
-  font-family: Arno Pro;
-  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ArnoPro-Regular.otf);
-  font-style: normal;
+.content {
+  width: 400px;
+  height: 40vh;
+  margin: 0 auto;
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-@font-face {
-  font-family: Arno Pro;
-  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/ArnoPro-Italic.otf);
-  font-style: italic;
+h3 {
+  font-size: 45px;
+  letter-spacing: 10px;
+  text-align: center;
+  color: white;
+  font-weight: 400;
 }
 p {
-  font-family: Arno Pro, serif;
-  font-size: 1.4rem;
-  line-height: 1.4;
-  margin: 0;
-}
-p a {
-  font-weight: bolder;
-  color: #000;
-  text-decoration: none;
-}
-@supports (font-variant-caps: small-caps) {
-  .multicol:first-of-type p:first-of-type {
-    font-variant-caps: small-caps;
-  }
-}
-p:not(:first-of-type) {
-  text-indent: 1.4rem;
-}
-.multicol {
-  column-count: 4;
-  column-gap: 2rem;
-}
-.multicol + img {
-  margin: 2rem 0;
-}
-article {
-  width: 80%;
-  margin: 0 auto 4rem;
-}
-article img {
-  width: 100%;
-}
-article header {
-  margin-bottom: 2.5rem;
-  padding-bottom: 4rem;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
-}
-article h1 {
-  margin-top: 0;
-  font-size: 3rem;
-}
-article h2 {
-  break-after: column;
-  font-size: 1.5rem;
-}
-h1,
-h2 {
-  font-family: Lato, sans-serif;
-}
-
-@media all and (max-width: 1600px) {
-  .multicol {
-    column-count: 3;
-  }
-}
-
-@media all and (max-width: 1000px) {
-  .multicol {
-    column-count: 2;
-  }
-}
-
-@media all and (max-width: 800px) {
-  article h2 {
-    break-after: avoid;
-  }
-  .multicol {
-    column-count: 1;
-  }
-}
-@media all and (max-width: 600px) {
-  body {
-    margin: 0;
-  }
-  article {
-    width: 100%;
-  }
-  .multicol {
-    padding: 0 1rem;
-  }
-  article header {
-    margin-bottom: 2.5rem;
-    padding-bottom: 0;
-    border-bottom: none;
-  }
-  h1 {
-    margin-bottom: 0;
-  }
+  color: #eee;
+  font-size: 16px;
+  line-height: 28px;
 }
 </style>
 
@@ -270,9 +190,6 @@ export default {
       }
     }
     window.addEventListener('wheel', scrollHandler);
-  },
-  methods: {
-
   }
 }
 </script>

@@ -104,6 +104,7 @@
   width: 200px;
   box-shadow: inset 1px 1px 3px rgba(255, 255, 255, 0.7), 4px 4px 25px rgba(0, 0, 0, 0.9);
   backdrop-filter: blur(7px);
+  cursor: pointer;
 
 }
 .button svg g {

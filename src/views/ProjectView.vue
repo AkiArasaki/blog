@@ -4,13 +4,276 @@ import MediaBar from "@/components/MediaBar.vue";
 </script>
 
 <template>
-  <h1>Project</h1>
-  <div class="temp"></div>
+  <div class="shell">
+    <div class="header">
+      <h2 class="title">Development Timeline</h2>
+      <h3 class="subtitle">AkiArasaki</h3>
+    </div>
+    <div class="timeline">
+      <div class="item" data-text="first project">
+        <div class="content">
+          <img class="img" src="@/assets/images/jpg/projectView/homeView-cosplay.jpg" alt="">
+          <h2 class="content-title">2024</h2>
+          <p class="content-description">
+            This is an project using discord.js
+            Plays audio from YouTube in a voice channel
+          </p>
+        </div>
+      </div>
+      <div class="item" data-text="first project">
+        <div class="content">
+          <img class="img" src="@/assets/images/jpg/projectView/homeView-project.jpg" alt="">
+          <h2 class="content-title">2024</h2>
+          <p class="content-description">
+            This is an project using discord.js
+            Plays audio from YouTube in a voice channel
+          </p>
+        </div>
+      </div>
+      <div class="item" data-text="first project">
+        <div class="content">
+          <img class="img" src="@/assets/images/jpg/projectView/homeView-cosplay.jpg" alt="">
+          <h2 class="content-title">2024</h2>
+          <p class="content-description">
+            This is an project using discord.js
+            Plays audio from YouTube in a voice channel
+          </p>
+        </div>
+      </div>
+      <div class="item" data-text="first project">
+        <div class="content">
+          <img class="img" src="@/assets/images/jpg/projectView/homeView-project.jpg" alt="">
+          <h2 class="content-title">2024</h2>
+          <p class="content-description">
+            This is an project using discord.js
+            Plays audio from YouTube in a voice channel
+          </p>
+        </div>
+      </div>
+      <div class="item" data-text="first project">
+        <div class="content">
+          <img class="img" src="@/assets/images/jpg/projectView/homeView-cosplay.jpg" alt="">
+          <h2 class="content-title">2024</h2>
+          <p class="content-description">
+            This is an project using discord.js
+            Plays audio from YouTube in a voice channel
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
   <MediaBar/>
 </template>
 
 <style scoped>
-.temp {
-  height: 120vh;
+.shell {
+  width: 100%;
+  position: relative;
+  padding: 80px 0;
+  transition: 0.3s ease 0s;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.shell:before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(99, 99, 99, 0.8);
+  content: "";
+}
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 80px;
+  position: relative;
+}
+.title {
+  color: #eee;
+  font-size: 46px;
+  font-weight: normal;
+  margin: 0;
+}
+.timeline {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 700px;
+  position: relative;
+}
+.content-title {
+  font-weight: normal;
+  font-size: 66px;
+  margin: -10px 0 0 0;
+  transition: 0.4s;
+  padding: 0 10px;
+  box-sizing: border-box;
+  color: #eee;
+}
+.content-description {
+  margin: 0;
+  font-size: 15px;
+  box-sizing: border-box;
+  color: rgba(238, 238, 238, 0.7);
+  line-height: 25px;
+}
+.timeline:before {
+  position: absolute;
+  left: 50%;
+  width: 2px;
+  height: 100%;
+  margin-left: -1px;
+  content: "";
+  background-color: rgba(255, 255, 255, 0.07);
+}
+.item {
+  padding: 40px 0;
+  opacity: 0.3;
+  filter: blur(2px);
+  transition: 0.5s;
+  box-sizing: border-box;
+  width: calc(50% - 40px);
+  display: flex;
+  position: relative;
+  transform: translateY(-80px);
+}
+.item:before {
+  content: attr(data-text);
+  letter-spacing: 3px;
+  width: 100%;
+  position: absolute;
+  color: rgba(238, 238, 238, 0.5);
+  font-size: 13px;
+  border-left: 2px solid rgba(238, 238, 238, 0.5);
+  top: 70%;
+  margin-top: -5px;
+  padding-left: 15px;
+  opacity: 0;
+  right: calc(-100% - 56px);
+  font: 900 20px '';
+  letter-spacing: 5px;
+}
+.item:nth-child(even) {
+  align-self: flex-end;
+}
+.item:nth-child(even):before {
+  right: auto;
+  text-align: right;
+  left: calc(-100% - 56px);
+  padding-left: 0;
+  border-left: none;
+  border-right: 2px solid rgba(238, 238, 238, 0.5);
+  padding-right: 15px;
+}
+.item--active {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0px);
+}
+.item--active:before {
+  top: 50%;
+  transition: 0.3s all 0.2s;
+  opacity: 1;
+}
+.item--active .content-title {
+  margin: -50px 0 20px 0;
+}
+.img {
+  max-width: 100%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+}
+.subtitle {
+  color: rgba(238, 238, 238, 0.5);
+  font-size: 16px;
+  letter-spacing: 5px;
+  margin: 10px 0 0 0;
+  font-weight: normal;
+}
+@media only screen and (max-width: 767px) {
+  .item {
+    align-self: baseline !important;
+    width: 100%;
+    padding: 0 30px 150px 80px;
+  }
+  .item:before {
+    left: 10px !important;
+    padding: 0 !important;
+    top: 50px;
+    text-align: center !important;
+    width: 60px;
+    border-left: none !important;
+  }
+  .item:last-child {
+    padding-bottom: 40px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .timeline:before {
+    left: 40px;
+  }
 }
 </style>
+
+<script>
+import jQuery from "jquery";
+import $ from "jquery";
+
+export default {
+  mounted() {
+    (function ($) {
+      $.fn.timeline = function () {
+        var selectors = {
+          id: $(this),
+          item: $(this).find(".item"),
+          activeClass: "item--active",
+          img: ".img"
+        };
+        selectors.item.eq(0).addClass(selectors.activeClass)
+        selectors.id.css(
+          "background-image",
+          "url(" +
+          selectors.item.first()
+            .find(selectors.img)
+            .attr("src") +
+          ")"
+        );
+        var itemLength = selectors.item.length;
+        $(window).scroll(function () {
+          var max, min;
+          var pos = $(this).scrollTop();
+          selectors.item.each(function (i) {
+            min = $(this).offset().top;
+            max = $(this).height() + $(this).offset().top;
+            if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
+              selectors.item.removeClass(selectors.activeClass);
+              selectors.id.css(
+                "background-image",
+                "url(" +
+                selectors.item.last()
+                  .find(selectors.img)
+                  .attr("src") +
+                ")"
+              );
+              selectors.item.last().addClass(selectors.activeClass);
+            } else if (pos <= max - 10 && pos >= min) {
+              selectors.id.css(
+                "background-image",
+                "url(" +
+                $(this)
+                  .find(selectors.img)
+                  .attr("src") +
+                ")"
+              );
+              selectors.item.removeClass(selectors.activeClass);
+              $(this).addClass(selectors.activeClass);
+            }
+          });
+        });
+      };
+    })(jQuery)
+    $("#shell").timeline();
+  }
+}
+</script>

@@ -10,6 +10,7 @@
     "lint": "eslint . --fix"
   },
   "dependencies": {
+    "jquery": "^3.7.1",
     "reset-css": "^5.0.2",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
