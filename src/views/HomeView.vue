@@ -23,7 +23,7 @@ import CosplayShowCase from "@/components/CosplayShowCase.vue";
           <p>How nice would it be, if it's midnight forever ...</p>
         </div>
         <div class="parallax p1">
-          <h3>How I make money</h3>
+          <h3>Turning insights into gold</h3>
         </div>
         <div class="content">
           <ProjectShowCase/>
@@ -35,7 +35,7 @@ import CosplayShowCase from "@/components/CosplayShowCase.vue";
             link-to="/project"/>
         </div>
         <div class="parallax p2">
-          <h3>How I spend money</h3>
+          <h3>Making moments into memories</h3>
         </div>
         <div class="content">
           <ShowCaseDescription
