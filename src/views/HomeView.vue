@@ -1,5 +1,8 @@
 <script setup>
 import MediaBar from "@/components/MediaBar.vue";
+import ProjectShowCase from "@/components/ProjectShowCase.vue";
+import ShowCaseDescription from "@/components/ShowCaseDescription.vue";
+import CosplayShowCase from "@/components/CosplayShowCase.vue";
 </script>
 
 <template>
@@ -14,7 +17,7 @@ import MediaBar from "@/components/MediaBar.vue";
     </header>
     <div class="main">
       <main>
-        <div class="content">
+        <div class="content top">
           <h3>AkiArasaki</h3>
           <p>How nice would it be, if it's midnight forever ...</p>
         </div>
@@ -22,13 +25,25 @@ import MediaBar from "@/components/MediaBar.vue";
           <h3>How I make money</h3>
         </div>
         <div class="content">
-          I survive by creating stuff
+          <ProjectShowCase/>
+          <ShowCaseDescription
+            hue-rotation="4"
+            title="I have made things like these ..."
+            description="I love creating stuff from 0,
+            the satisfaction gained from implementing a function is the best."
+            link-to="/project"/>
         </div>
         <div class="parallax p2">
           <h3>How I spend money</h3>
         </div>
         <div class="content">
-          I cosplay for fun
+          <ShowCaseDescription
+            hue-rotation="1"
+            title="I could be ones like these ..."
+            description="I love experiencing stories,
+            doing cosplay really leads me into characters' fantastic worlds."
+            link-to="/cosplay"/>
+          <CosplayShowCase/>
         </div>
       </main>
     </div>
@@ -141,13 +156,16 @@ header {
   background-image: url("@/assets/images/jpg/homeView/homeView-cosplay.jpg");
 }
 .content {
-  width: 400px;
-  height: 40vh;
+  width: 100%;
+  height: 50vh;
+  min-height: 500px;
   margin: 0 auto;
   text-align: justify;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.top {
   flex-direction: column;
 }
 h3 {

@@ -20,6 +20,9 @@
         <div class="button" style="--i:3">
           <router-link to="/cosplay">Cosplay</router-link>
         </div>
+        <div class="button" style="--i:4">
+          <router-link to="/cosplay">Whisper</router-link>
+        </div>
       </div>
       <div class="language">
         <h2>EN / CH / JP</h2>
@@ -82,12 +85,12 @@
 .tabs {
   margin: auto auto;
   display: grid;
-  grid-template-columns: 7fr 1fr 1fr 1fr;
+  grid-template-columns: 7fr 1fr 1fr 1fr 1fr;
   column-gap: 5vw;
 }
 .button {
   height: 60px;
-  width: 5vw;
+  width: 6vw;
   position: relative;
   transition: all 0.3s;
   filter: hue-rotate(calc(var(--i) * 60deg));

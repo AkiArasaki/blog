@@ -141,11 +141,9 @@ import MediaBar from "@/components/MediaBar.vue";
 }
 .item:before {
   content: attr(data-text);
-  letter-spacing: 3px;
   width: 100%;
   position: absolute;
   color: rgba(238, 238, 238, 0.5);
-  font-size: 13px;
   border-left: 2px solid rgba(238, 238, 238, 0.5);
   top: 70%;
   margin-top: -5px;
@@ -217,63 +215,6 @@ import MediaBar from "@/components/MediaBar.vue";
 </style>
 
 <script>
-import jQuery from "jquery";
-import $ from "jquery";
-
 export default {
-  mounted() {
-    (function ($) {
-      $.fn.timeline = function () {
-        var selectors = {
-          id: $(this),
-          item: $(this).find(".item"),
-          activeClass: "item--active",
-          img: ".img"
-        };
-        selectors.item.eq(0).addClass(selectors.activeClass)
-        selectors.id.css(
-          "background-image",
-          "url(" +
-          selectors.item.first()
-            .find(selectors.img)
-            .attr("src") +
-          ")"
-        );
-        var itemLength = selectors.item.length;
-        $(window).scroll(function () {
-          var max, min;
-          var pos = $(this).scrollTop();
-          selectors.item.each(function (i) {
-            min = $(this).offset().top;
-            max = $(this).height() + $(this).offset().top;
-            if (i == itemLength - 2 && pos > min + $(this).height() / 2) {
-              selectors.item.removeClass(selectors.activeClass);
-              selectors.id.css(
-                "background-image",
-                "url(" +
-                selectors.item.last()
-                  .find(selectors.img)
-                  .attr("src") +
-                ")"
-              );
-              selectors.item.last().addClass(selectors.activeClass);
-            } else if (pos <= max - 10 && pos >= min) {
-              selectors.id.css(
-                "background-image",
-                "url(" +
-                $(this)
-                  .find(selectors.img)
-                  .attr("src") +
-                ")"
-              );
-              selectors.item.removeClass(selectors.activeClass);
-              $(this).addClass(selectors.activeClass);
-            }
-          });
-        });
-      };
-    })(jQuery)
-    $("#shell").timeline();
-  }
 }
 </script>
