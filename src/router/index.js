@@ -19,6 +19,11 @@ const router = createRouter({
       component: CosplayView
     }
   ]
-})
+});
+
+router.beforeEach((to, from, next) => {
+  document.title = "AkiArasaki.com";
+  next();
+});
 
 export default router
