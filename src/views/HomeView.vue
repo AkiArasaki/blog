@@ -9,6 +9,7 @@ import CosplayShowCase from "@/components/CosplayShowCase.vue";
   <div class="shell">
     <header>
       <div class="img">
+        <video src="@/assets/videos/homeView/Emily.mp4" class="video" preload="auto" loop playsinline autoplay muted/>
         <h1>Goodnight</h1>
         <div class="arrow"></div>
         <div class="arrow"></div>
@@ -80,7 +81,6 @@ header {
   height: 100%;
   position: relative;
   overflow: hidden;
-  background: url("@/assets/images/webp/homeView/banner.webp");
   background-size: cover;
   transform: scale(1);
   transition: transform 0.5s ease;
@@ -90,10 +90,26 @@ header {
   align-items: center;
   filter: brightness(0.9);
 }
+.video {
+  top: 0;
+  width: 100%;
+  position: absolute;
+  animation: am2 ease-out 1s 0.2s backwards;
+  filter: brightness(0.7);
+}
+@keyframes am2 {
+  0% {
+    filter: brightness(0);
+  }
+  100% {
+    filter: brightness(0.7);
+  }
+}
 .img h1 {
   margin: auto auto;
   font-size: 100px;
   animation: am1 ease-out 1s 0.2s backwards;
+  position: relative;
 }
 @keyframes am1 {
   0% {

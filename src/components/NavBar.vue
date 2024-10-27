@@ -50,7 +50,7 @@
   width: 95vw;
   height: 80px;
   border-radius: 20px;
-  margin-top: 10px;
+  margin-top: 2vh;
   color: #eee;
   background-color: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(4px);
