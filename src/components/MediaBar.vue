@@ -70,7 +70,7 @@
         </svg>
       </div>
       <div class="text">
-        <h2>@EricTian</h2>
+        <h2>@AkiArasaki</h2>
       </div>
     </div>
   </div>
