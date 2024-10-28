@@ -10,53 +10,92 @@ import MediaBar from "@/components/MediaBar.vue";
       <h3 class="subtitle">AkiArasaki</h3>
     </div>
     <div class="timeline">
-      <div class="item" data-text="first project">
+      <div class="item" data-text="This Blog">
+        <div class="content">
+          <img class="img" src="@/assets/images/png/projectView/project-blog.png" alt="">
+          <h2 class="content-title">2024</h2>
+          <p class="content-description">
+            Yes, you are here. Welcome to this blog
+          </p>
+        </div>
+      </div>
+      <div class="item" data-text="UTMCAPS">
+        <div class="content">
+          <img class="img" src="@/assets/images/jpg/projectView/project-UTMCAPSWebsite.jpg" alt="">
+          <h2 class="content-title">2024</h2>
+          <p class="content-description">
+            As a starting member of the club,
+            we created this site from smooth flat.
+          </p>
+        </div>
+      </div>
+      <div class="item" data-text="Igiari">
+        <div class="content">
+          <img class="img" src="@/assets/images/jpg/projectView/project-igiari.jpg" alt="">
+          <h2 class="content-title">2024</h2>
+          <p class="content-description">
+            An Ace Attorney Inspired APP,
+            allows you to execute OBJECTION!
+          </p>
+        </div>
+      </div>
+      <div class="item" data-text="utahime">
         <div class="content">
           <img class="img" src="@/assets/images/jpg/projectView/project-utahime.jpg" alt="">
           <h2 class="content-title">2024</h2>
           <p class="content-description">
-            This is an project using discord.js
-            Plays audio from YouTube in a voice channel
+            A easy to deploy discord music bot,
+            towards discord users with less experience working with vps and programming.
           </p>
         </div>
       </div>
-      <div class="item" data-text="first project">
+      <div class="item" data-text="EWW">
         <div class="content">
-          <img class="img" src="@/assets/images/jpg/projectView/homeView-project.jpg" alt="">
-          <h2 class="content-title">2024</h2>
+          <img class="img" src="@/assets/images/jpg/projectView/project-eww.jpg" alt="">
+          <h2 class="content-title">2023</h2>
           <p class="content-description">
-            This is an project using discord.js
-            Plays audio from YouTube in a voice channel
+            This is an prototype of an mobile APP for those who have allergies
+            in order to protect them from allergens.
           </p>
         </div>
       </div>
-      <div class="item" data-text="first project">
+      <div class="item" data-text="music_bot">
         <div class="content">
-          <img class="img" src="@/assets/images/jpg/projectView/homeView-cosplay.jpg" alt="">
-          <h2 class="content-title">2024</h2>
+          <img class="img" src="@/assets/images/jpg/projectView/project-discord_music_bot.jpg" alt="">
+          <h2 class="content-title">2023</h2>
           <p class="content-description">
-            This is an project using discord.js
-            Plays audio from YouTube in a voice channel
+            My first discord music bot released, due to the suspension of Groovy,
+            .p is the best command for ever.
           </p>
         </div>
       </div>
-      <div class="item" data-text="first project">
+      <div class="item" data-text="T.E. of YoRHa">
         <div class="content">
-          <img class="img" src="@/assets/images/jpg/projectView/homeView-project.jpg" alt="">
-          <h2 class="content-title">2024</h2>
+          <img class="img" src="@/assets/images/png/projectView/project-theEndOfYoRHa.png" alt="">
+          <h2 class="content-title">2023</h2>
           <p class="content-description">
-            This is an project using discord.js
-            Plays audio from YouTube in a voice channel
+            It was a grade 12 final project,
+            the winter a1.1 released. 人類に栄光あれ。
           </p>
         </div>
       </div>
-      <div class="item" data-text="first project">
+      <div class="item" data-text="BlackJack">
         <div class="content">
-          <img class="img" src="@/assets/images/jpg/projectView/homeView-cosplay.jpg" alt="">
-          <h2 class="content-title">2024</h2>
+          <img class="img" src="@/assets/images/jpg/projectView/project-blackJack.jpg" alt="">
+          <h2 class="content-title">2022</h2>
           <p class="content-description">
-            This is an project using discord.js
-            Plays audio from YouTube in a voice channel
+            This is an Java application can be host locally,
+            to play blackJack with friends under same LAN.
+          </p>
+        </div>
+      </div>
+      <div class="item" data-text="MultiPage">
+        <div class="content">
+          <img class="img" src="@/assets/images/png/projectView/project-multiPageWebsiteAssignment.png" alt="">
+          <h2 class="content-title">2022</h2>
+          <p class="content-description">
+            It was a grade 11 final project,
+            where I started to archive my projects.
           </p>
         </div>
       </div>
@@ -69,7 +108,7 @@ import MediaBar from "@/components/MediaBar.vue";
 .shell {
   width: 100%;
   position: relative;
-  padding: 80px 0;
+  padding: 100px 0;
   transition: 0.3s ease 0s;
   background-attachment: fixed;
   background-size: cover;
@@ -80,7 +119,6 @@ import MediaBar from "@/components/MediaBar.vue";
   top: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(99, 99, 99, 0.8);
   content: "";
 }
 .header {
@@ -131,7 +169,6 @@ import MediaBar from "@/components/MediaBar.vue";
 .item {
   padding: 40px 0;
   opacity: 0.3;
-  filter: blur(2px);
   transition: 0.5s;
   box-sizing: border-box;
   width: calc(50% - 40px);
@@ -165,17 +202,16 @@ import MediaBar from "@/components/MediaBar.vue";
   border-right: 2px solid rgba(238, 238, 238, 0.5);
   padding-right: 15px;
 }
-.item--active {
+.item:hover {
   opacity: 1;
   transform: translateY(0);
-  filter: blur(0px);
 }
-.item--active:before {
+.item:hover:before {
   top: 50%;
   transition: 0.3s all 0.2s;
   opacity: 1;
 }
-.item--active .content-title {
+.item:hover .content-title {
   margin: -50px 0 20px 0;
 }
 .img {
@@ -213,8 +249,3 @@ import MediaBar from "@/components/MediaBar.vue";
   }
 }
 </style>
-
-<script>
-export default {
-}
-</script>
