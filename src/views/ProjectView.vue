@@ -12,7 +12,7 @@ import MediaBar from "@/components/MediaBar.vue";
     <div class="timeline">
       <div class="item" data-text="first project">
         <div class="content">
-          <img class="img" src="@/assets/images/jpg/projectView/homeView-cosplay.jpg" alt="">
+          <img class="img" src="@/assets/images/jpg/projectView/project-utahime.jpg" alt="">
           <h2 class="content-title">2024</h2>
           <p class="content-description">
             This is an project using discord.js

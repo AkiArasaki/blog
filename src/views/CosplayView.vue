@@ -5,9 +5,46 @@ import MediaBar from "@/components/MediaBar.vue";
 
 <template>
   <div class="main">
-    <section style="background-color: lightyellow">1</section>
-    <section style="background-color: lightpink">2</section>
-    <section style="background-color: lightblue">3</section>
+    <section class="silver-wolf">
+      <div class="background">
+        <img src="@/assets/images/png/cosplayView/silverWolf/cosplay-silverWolf-back.png" alt="">
+      </div>
+      <div class="character silver-wolf-character">
+        <img class="silver-wolf-character-img" src="../assets/images/png/cosplayView/silverWolf/cosplay-silverWolf-front.png" alt="">
+      </div>
+    </section>
+    <section class="violet-evergarden">
+      <div class="background">
+        <img src="@/assets/images/png/cosplayView/violetEvergarden/cosplay-violetEvergarden-back.png" alt="">
+      </div>
+      <div class="character violet-evergarden-character">
+        <img class="violet-evergarden-character-img" src="../assets/images/png/cosplayView/violetEvergarden/cosplay-violetEvergarden-front.png" alt="">
+      </div>
+    </section>
+    <section class="twob">
+      <div class="background">
+        <img src="@/assets/images/png/cosplayView/twob/cosplay-2b-back.png" alt="">
+      </div>
+      <div class="character twob-character">
+        <img class="twob-character-img" src="../assets/images/png/cosplayView/twob/cosplay-2b-front.png" alt="">
+      </div>
+    </section>
+    <section class="nicole">
+      <div class="background nicole-background">
+        <img src="@/assets/images/png/cosplayView/nicole/cosplay-nicole-back.png" alt="">
+      </div>
+      <div class="character nicole-character">
+        <img class="nicole-character-img" src="../assets/images/png/cosplayView/nicole/cosplay-nicole-front.png" alt="">
+      </div>
+    </section>
+    <section class="kaiSa">
+      <div class="background kaiSa-background">
+        <img src="@/assets/images/png/cosplayView/kaiSa/cosplay-kaiSa-back.png" alt="">
+      </div>
+      <div class="character kaiSa-character">
+        <img class="kaiSa-character-img" src="../assets/images/png/cosplayView/kaiSa/cosplay-kaiSa-front.png" alt="">
+      </div>
+    </section>
     <section>
       <div class="content">
 
@@ -30,8 +67,139 @@ section {
   width: 100vw;
   height: 100vh;
   scroll-snap-align: start;
+  overflow: hidden;
 }
-.content {
-  height: 200px;
+
+.background {
+  width: 100%;
+  height: 100%;
+}
+.background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.character {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.character img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.silver-wolf {
+  filter: brightness(0.9);
+}
+.silver-wolf-character {
+  animation: a1 10s infinite;
+}
+.silver-wolf-character-img {
+  transform: scale(1.1);
+}
+@keyframes a1 {
+  0% {
+    transform: translate(-1%, 1%);
+  }
+  50% {
+    transform: translate(1%, -1%);
+  }
+  100% {
+    transform: translate(-1%, 1%);
+  }
+}
+.violet-evergarden {
+  filter: brightness(0.4);
+  animation: a2 10s infinite;
+}
+.violet-evergarden-character {
+  animation: a3 10s infinite;
+  transform-origin: bottom;
+}
+@keyframes a2 {
+  0% {
+    filter: brightness(0.7);
+  }
+  50% {
+    filter: brightness(0.9);
+  }
+  100% {
+    filter: brightness(0.7);
+  }
+}
+@keyframes a3 {
+  0% {
+    transform: perspective(2000px) rotateX(0) skewX(0);
+  }
+  50% {
+    transform: perspective(2000px) rotateX(2deg) skewX(-1deg);
+  }
+  100% {
+    transform: perspective(2000px) rotateX(0) skewX(0);
+  }
+}
+.twob {
+  filter: brightness(0.7);
+}
+.twob-character {
+  bottom: -8vh;
+  right: 5vw;
+  animation: a4 10s infinite;
+}
+.twob-character-img {
+  transform: scale(1.2);
+}
+@keyframes a4 {
+  0% {
+    transform: translateY(-2%);
+  }
+  50% {
+    transform: translateY(2%);
+  }
+  100% {
+    transform: translateY(-2%);
+  }
+}
+.nicole {
+  filter: brightness(0.9);
+}
+.nicole-background {
+  animation: a5 10s infinite;
+}
+.nicole-character {
+  animation: a6 10s infinite;
+}
+@keyframes a5 {
+  0% {
+    filter: blur(3px);
+  }
+  50% {
+    filter: blur(5px);
+  }
+  100% {
+    filter: blur(3px);
+  }
+}
+@keyframes a6 {
+  0% {
+    transform: translateX(2%);
+  }
+  50% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(2%);
+  }
+}
+.kaiSa {
+  filter: brightness(0.9);
+}
+.kaiSa-character {
+  animation: a4 10s infinite;
+}
+.kaiSa-character-img {
+  transform: scale(1.1);
 }
 </style>
