@@ -5,85 +5,85 @@
 <template>
   <div class="shell">
     <div class="images slower1">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden1.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden1.jpg" alt="">
       <div class="text">
         <h3>By: rtbsb520<br><span>At: University College</span></h3>
       </div>
     </div>
     <div class="images slower">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden2.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden2.jpg" alt="">
       <div class="text">
         <h3>By: zhuzhutou<br><span>At: University College</span></h3>
       </div>
     </div>
     <div class="images faster1">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden12.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden12.jpg" alt="">
       <div class="text">
         <h3>By: rtbsb520<br><span>At: University College</span></h3>
       </div>
     </div>
     <div class="images vertical">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden4.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden4.jpg" alt="">
       <div class="text">
         <h3>By: zhuzhutou<br><span>At: University College</span></h3>
       </div>
     </div>
     <div class="images slower">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden5.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden5.jpg" alt="">
       <div class="text">
         <h3>By: rtbsb520<br><span>At: University College</span></h3>
       </div>
     </div>
     <div class="images faster">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden6.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden6.jpg" alt="">
       <div class="text">
         <h3>By: zhuzhutou<br><span>At: University College</span></h3>
       </div>
     </div>
     <div class="images vertical">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden7.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden7.jpg" alt="">
       <div class="text">
         <h3>By: zhuzhutou<br><span>At: University College</span></h3>
       </div>
     </div>
     <div class="images faster1">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden8.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden8.jpg" alt="">
       <div class="text">
         <h3>By: zhuzhutou<br><span>At: University College</span></h3>
       </div>
     </div>
     <div class="images vertical">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden9.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden9.jpg" alt="">
       <div class="text">
         <h3>By: zhuzhutou<br><span>At: University College</span></h3>
       </div>
     </div>
     <div class="images faster1">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden10.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden10.jpg" alt="">
       <div class="text">
         <h3>By: rtbsb520<br><span>At: University College</span></h3>
       </div>
     </div>
     <div class="images faster">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden11.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden11.jpg" alt="">
       <div class="text">
         <h3>By: rtbsb520<br><span>At: University College</span></h3>
       </div>
     </div>
     <div class="images slower">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden3.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden3.jpg" alt="">
       <div class="text">
         <h3>By: zhuzhutou<br><span>At: University College</span></h3>
       </div>
     </div>
     <div class="images faster1">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden13.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden13.jpg" alt="">
       <div class="text">
         <h3>By: rtbsb520<br><span>At: University College</span></h3>
       </div>
     </div>
     <div class="images vertical">
-      <img src="@/assets/images/png/cosplayView/violetEvergarden/violetEvergarden14.png" alt="">
+      <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden14.jpg" alt="">
       <div class="text">
         <h3>By: rtbsb520<br><span>At: University College</span></h3>
       </div>

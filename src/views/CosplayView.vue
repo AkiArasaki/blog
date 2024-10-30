@@ -9,7 +9,7 @@ import VioletEvergardenBooth from "@/components/VioletEvergardenBooth.vue";
   <div class="main">
     <section class="silver-wolf">
       <div class="background">
-        <img src="@/assets/images/png/cosplayView/silverWolf/cosplay-silverWolf-back.png" alt="">
+        <img src="@/assets/images/jpg/cosplayView/silverWolf/cosplay-silverWolf-back.jpg" alt="">
       </div>
       <div class="character silver-wolf-character">
         <img class="silver-wolf-character-img" src="../assets/images/png/cosplayView/silverWolf/cosplay-silverWolf-front.png" alt="">
@@ -22,7 +22,7 @@ import VioletEvergardenBooth from "@/components/VioletEvergardenBooth.vue";
     </section>
     <section class="violet-evergarden">
       <div class="background">
-        <img src="@/assets/images/png/cosplayView/violetEvergarden/cosplay-violetEvergarden-back.png" alt="">
+        <img src="@/assets/images/jpg/cosplayView/violetEvergarden/cosplay-violetEvergarden-back.jpg" alt="">
       </div>
       <div class="character violet-evergarden-character">
         <img class="violet-evergarden-character-img" src="../assets/images/png/cosplayView/violetEvergarden/cosplay-violetEvergarden-front.png" alt="">
@@ -35,7 +35,7 @@ import VioletEvergardenBooth from "@/components/VioletEvergardenBooth.vue";
     </section>
     <section class="twob">
       <div class="background">
-        <img src="@/assets/images/png/cosplayView/twob/cosplay-2b-back.png" alt="">
+        <img src="@/assets/images/jpg/cosplayView/twob/cosplay-2b-back.jpg" alt="">
       </div>
       <div class="character twob-character">
         <img class="twob-character-img" src="../assets/images/png/cosplayView/twob/cosplay-2b-front.png" alt="">
@@ -43,7 +43,7 @@ import VioletEvergardenBooth from "@/components/VioletEvergardenBooth.vue";
     </section>
     <section class="nicole">
       <div class="background nicole-background">
-        <img src="@/assets/images/png/cosplayView/nicole/cosplay-nicole-back.png" alt="">
+        <img src="@/assets/images/jpg/cosplayView/nicole/cosplay-nicole-back.jpg" alt="">
       </div>
       <div class="character nicole-character">
         <img class="nicole-character-img" src="../assets/images/png/cosplayView/nicole/cosplay-nicole-front.png" alt="">
@@ -51,7 +51,7 @@ import VioletEvergardenBooth from "@/components/VioletEvergardenBooth.vue";
     </section>
     <section class="kaiSa">
       <div class="background kaiSa-background">
-        <img src="@/assets/images/png/cosplayView/kaiSa/cosplay-kaiSa-back.png" alt="">
+        <img src="@/assets/images/jpg/cosplayView/kaiSa/cosplay-kaiSa-back.jpg" alt="">
       </div>
       <div class="character kaiSa-character">
         <img class="kaiSa-character-img" src="../assets/images/png/cosplayView/kaiSa/cosplay-kaiSa-front.png" alt="">

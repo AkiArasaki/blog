@@ -5,73 +5,73 @@
 <template>
   <div class="photo-booth">
     <div class="photo-container">
-      <div class="photo"><img src="@/assets/images/png/cosplayView/silverWolf/silverWolf1.png" alt=""></div>
+      <div class="photo"><img src="@/assets/images/jpg/cosplayView/silverWolf/silverWolf1.jpg" alt=""></div>
       <div class="glass">
         <h3>By: rtbsb520<br><span>At: ZuiBeerBar</span></h3>
       </div>
     </div>
     <div class="photo-container">
-      <div class="photo"><img src="@/assets/images/png/cosplayView/silverWolf/silverWolf2.png" alt=""></div>
+      <div class="photo"><img src="@/assets/images/jpg/cosplayView/silverWolf/silverWolf2.jpg" alt=""></div>
       <div class="glass">
         <h3>By: rtbsb520<br><span>At: ZuiBeerBar</span></h3>
       </div>
     </div>
     <div class="photo-container">
-      <div class="photo"><img src="@/assets/images/png/cosplayView/silverWolf/silverWolf3.png" alt=""></div>
+      <div class="photo"><img src="@/assets/images/jpg/cosplayView/silverWolf/silverWolf3.jpg" alt=""></div>
       <div class="glass">
         <h3>By: rtbsb520<br><span>At: ZuiBeerBar</span></h3>
       </div>
     </div>
     <div class="photo-container">
-      <div class="photo"><img src="../assets/images/png/cosplayView/silverWolf/silverWolf4.png" alt=""></div>
+      <div class="photo"><img src="../assets/images/jpg/cosplayView/silverWolf/silverWolf4.jpg" alt=""></div>
       <div class="glass">
         <h3>By: rtbsb520<br><span>At: ZuiBeerBar</span></h3>
       </div>
     </div>
     <div class="photo-container">
-      <div class="photo"><img src="../assets/images/png/cosplayView/silverWolf/silverWolf5.png" alt=""></div>
+      <div class="photo"><img src="../assets/images/jpg/cosplayView/silverWolf/silverWolf5.jpg" alt=""></div>
       <div class="glass">
         <h3>By: rtbsb520<br><span>At: ZuiBeerBar</span></h3>
       </div>
     </div>
     <div class="photo-container">
-      <div class="photo"><img src="../assets/images/png/cosplayView/silverWolf/silverWolf6.png" alt=""></div>
+      <div class="photo"><img src="../assets/images/jpg/cosplayView/silverWolf/silverWolf6.jpg" alt=""></div>
       <div class="glass">
         <h3>By: rtbsb520<br><span>At: ZuiBeerBar</span></h3>
       </div>
     </div>
     <div class="photo-container">
-      <div class="photo"><img src="../assets/images/png/cosplayView/silverWolf/silverWolf7.png" alt=""></div>
+      <div class="photo"><img src="../assets/images/jpg/cosplayView/silverWolf/silverWolf7.jpg" alt=""></div>
       <div class="glass">
         <h3>By: rtbsb520<br><span>At: ZuiBeerBar</span></h3>
       </div>
     </div>
     <div class="photo-container">
-      <div class="photo"><img src="../assets/images/png/cosplayView/silverWolf/silverWolf8.png" alt=""></div>
+      <div class="photo"><img src="../assets/images/jpg/cosplayView/silverWolf/silverWolf8.jpg" alt=""></div>
       <div class="glass">
         <h3>By: mofumofu<br><span>At: AnimeNorth2024</span></h3>
       </div>
     </div>
     <div class="photo-container">
-      <div class="photo"><img src="../assets/images/png/cosplayView/silverWolf/silverWolf9.png" alt=""></div>
+      <div class="photo"><img src="../assets/images/jpg/cosplayView/silverWolf/silverWolf9.jpg" alt=""></div>
       <div class="glass">
         <h3>By: mofumofu<br><span>At: AnimeNorth2024</span></h3>
       </div>
     </div>
     <div class="photo-container">
-      <div class="photo"><img src="../assets/images/png/cosplayView/silverWolf/silverWolf10.png" alt=""></div>
+      <div class="photo"><img src="../assets/images/jpg/cosplayView/silverWolf/silverWolf10.jpg" alt=""></div>
       <div class="glass">
         <h3>By: tusu<br><span>At: AnimeNorth2024</span></h3>
       </div>
     </div>
     <div class="photo-container">
-      <div class="photo"><img src="../assets/images/png/cosplayView/silverWolf/silverWolf11.png" alt=""></div>
+      <div class="photo"><img src="../assets/images/jpg/cosplayView/silverWolf/silverWolf11.jpg" alt=""></div>
       <div class="glass">
         <h3>By: tusu<br><span>At: AnimeNorth2024</span></h3>
       </div>
     </div>
     <div class="photo-container">
-      <div class="photo"><img src="../assets/images/png/cosplayView/silverWolf/silverWolf12.png" alt=""></div>
+      <div class="photo"><img src="../assets/images/jpg/cosplayView/silverWolf/silverWolf12.jpg" alt=""></div>
       <div class="glass">
         <h3>By: zhaizhai<br><span>At: AnimeNorth2024</span></h3>
       </div>
