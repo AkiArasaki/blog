@@ -37,7 +37,7 @@ import CosplayShowCase from "@/components/CosplayShowCase.vue";
             link-to="/project"/>
         </div>
         <div class="parallax p2">
-          <h3>Making moments into memories</h3>
+          <h3>Making moments become memories</h3>
         </div>
         <div class="content">
           <ShowCaseDescription

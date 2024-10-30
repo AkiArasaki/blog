@@ -6,10 +6,10 @@
   <div class="container">
     <div class="card">
       <div class="background">
-        <img src="@/assets/images/jpg/cosplayView/kaiSa/kaiSa-1.jpg" alt="">
+        <img src="../assets/images/jpg/homeView/kaiSa-1.jpg" alt="">
       </div>
       <div class="character">
-        <img src="../assets/images/png/cosplayView/kaiSa/kaiSa-1.png" alt="">
+        <img src="../assets/images/png/homeView/kaiSa-1.png" alt="">
       </div>
       <div class="content">
         <h1>Kai'Sa</h1>
@@ -18,10 +18,10 @@
     </div>
     <div class="card">
       <div class="background">
-        <img src="@/assets/images/jpg/cosplayView/silverWolf/silverWolf-1.jpg" alt="">
+        <img src="../assets/images/jpg/homeView/silverWolf-1.jpg" alt="">
       </div>
       <div class="character">
-        <img src="../assets/images/png/cosplayView/silverWolf/silverWolf-1.png" alt="">
+        <img src="../assets/images/png/homeView/silverWolf-1.png" alt="">
       </div>
       <div class="content">
         <h1>Silver Wolf</h1>

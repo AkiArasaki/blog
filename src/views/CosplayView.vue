@@ -1,6 +1,8 @@
 <script setup>
 
 import MediaBar from "@/components/MediaBar.vue";
+import SilverWolfBooth from "@/components/SilverWolfBooth.vue";
+import VioletEvergardenBooth from "@/components/VioletEvergardenBooth.vue";
 </script>
 
 <template>
@@ -12,6 +14,11 @@ import MediaBar from "@/components/MediaBar.vue";
       <div class="character silver-wolf-character">
         <img class="silver-wolf-character-img" src="../assets/images/png/cosplayView/silverWolf/cosplay-silverWolf-front.png" alt="">
       </div>
+      <div class="booth">
+        <div class="silver-wolf-booth">
+          <SilverWolfBooth/>
+        </div>
+      </div>
     </section>
     <section class="violet-evergarden">
       <div class="background">
@@ -19,6 +26,11 @@ import MediaBar from "@/components/MediaBar.vue";
       </div>
       <div class="character violet-evergarden-character">
         <img class="violet-evergarden-character-img" src="../assets/images/png/cosplayView/violetEvergarden/cosplay-violetEvergarden-front.png" alt="">
+      </div>
+      <div class="booth">
+        <div class="violet-evergarden-booth">
+          <VioletEvergardenBooth/>
+        </div>
       </div>
     </section>
     <section class="twob">
@@ -47,7 +59,6 @@ import MediaBar from "@/components/MediaBar.vue";
     </section>
     <section>
       <div class="content">
-
       </div>
       <MediaBar/>
     </section>
@@ -69,7 +80,6 @@ section {
   scroll-snap-align: start;
   overflow: hidden;
 }
-
 .background {
   width: 100%;
   height: 100%;
@@ -90,6 +100,12 @@ section {
   height: 100%;
   object-fit: cover;
 }
+.booth {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  bottom: 0;
+}
 .silver-wolf {
   filter: brightness(0.9);
 }
@@ -98,6 +114,13 @@ section {
 }
 .silver-wolf-character-img {
   transform: scale(1.1);
+}
+.silver-wolf-booth {
+  width: 60%;
+  height: 90%;
+  overflow: scroll;
+  margin-top: 5%;
+  margin-left: 5%;
 }
 @keyframes a1 {
   0% {
@@ -117,6 +140,8 @@ section {
 .violet-evergarden-character {
   animation: a3 10s infinite;
   transform-origin: bottom;
+}
+.violet-evergarden-booth {
 }
 @keyframes a2 {
   0% {
