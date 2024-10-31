@@ -9,9 +9,7 @@ import CosplayShowCase from "@/components/CosplayShowCase.vue";
   <div class="shell">
     <header>
       <div class="img">
-        <!--
         <video src="@/assets/videos/homeView/Emily.mp4" class="video" preload="auto" loop playsinline autoplay muted/>
-        -->
         <h1>Goodnight</h1>
         <div class="arrow"></div>
         <div class="arrow"></div>
@@ -92,21 +90,21 @@ header {
   align-items: center;
   background-image: url("@/assets/images/jpg/homeView/banner.jpg");
   animation: am2 ease-out 1s 0.2s backwards;
-  filter: brightness(0.5);
+  filter: brightness(0.6);
 }
 .video {
   top: 0;
   width: 100%;
   position: absolute;
   animation: am2 ease-out 1s 0.2s backwards;
-  filter: brightness(0.5);
+  filter: brightness(0.6);
 }
 @keyframes am2 {
   0% {
     filter: brightness(0);
   }
   100% {
-    filter: brightness(0.5);
+    filter: brightness(0.6);
   }
 }
 .img h1 {

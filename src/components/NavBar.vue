@@ -21,7 +21,7 @@
           <router-link to="/cosplay">Cosplay</router-link>
         </div>
         <div class="button" style="--i:4">
-          <router-link to="/cosplay">Whisper</router-link>
+          <router-link to="/whisper">Whisper</router-link>
         </div>
       </div>
       <div class="language">

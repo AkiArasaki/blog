@@ -3,6 +3,7 @@
 import MediaBar from "@/components/MediaBar.vue";
 import SilverWolfBooth from "@/components/SilverWolfBooth.vue";
 import VioletEvergardenBooth from "@/components/VioletEvergardenBooth.vue";
+import TwobBooth from "@/components/TwobBooth.vue";
 </script>
 
 <template>
@@ -40,6 +41,11 @@ import VioletEvergardenBooth from "@/components/VioletEvergardenBooth.vue";
       <div class="character twob-character">
         <img class="twob-character-img" src="../assets/images/png/cosplayView/twob/cosplay-2b-front.png" alt="">
       </div>
+      <div class="booth">
+        <div class="twob-booth">
+          <TwobBooth/>
+        </div>
+      </div>
     </section>
     <section class="nicole">
       <div class="background nicole-background">
@@ -57,11 +63,12 @@ import VioletEvergardenBooth from "@/components/VioletEvergardenBooth.vue";
         <img class="kaiSa-character-img" src="../assets/images/png/cosplayView/kaiSa/cosplay-kaiSa-front.png" alt="">
       </div>
     </section>
-    <section>
-      <div class="content">
+    <section class="coming-soon">
+      <div class="image-container">
+        <img src="@/assets/images/jpg/cosplayView/cosplay-comingSoon.jpg" alt="">
       </div>
-      <MediaBar/>
     </section>
+    <MediaBar/>
   </div>
 </template>
 
@@ -141,8 +148,6 @@ section {
   animation: a3 10s infinite;
   transform-origin: bottom;
 }
-.violet-evergarden-booth {
-}
 @keyframes a2 {
   0% {
     filter: brightness(0.7);
@@ -175,6 +180,12 @@ section {
 }
 .twob-character-img {
   transform: scale(1.2);
+}
+.twob-booth {
+  width: 60%;
+  height: 60%;
+  margin-top: 10%;
+  margin-left: 3%;
 }
 @keyframes a4 {
   0% {
@@ -226,5 +237,23 @@ section {
 }
 .kaiSa-character-img {
   transform: scale(1.1);
+}
+.coming-soon {
+  height: calc(100vh - 110px);
+}
+.image-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.image-container img {
+  width: 50%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: inset 1px 1px 6px rgba(255, 255, 255, 0.3), 2px 2px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
 }
 </style>

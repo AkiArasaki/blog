@@ -12,7 +12,7 @@ import MediaBar from "@/components/MediaBar.vue";
     <div class="timeline">
       <div class="item" data-text="This Blog">
         <div class="content">
-          <img class="img" src="@/assets/images/png/projectView/project-blog.png" alt="">
+          <img class="img" src="@/assets/images/jpg/projectView/project-blog.jpg" alt="">
           <h2 class="content-title">2024</h2>
           <p class="content-description">
             Yes, you are here. Welcome to this blog
@@ -71,7 +71,7 @@ import MediaBar from "@/components/MediaBar.vue";
       </div>
       <div class="item" data-text="T.E. of YoRHa">
         <div class="content">
-          <img class="img" src="@/assets/images/png/projectView/project-theEndOfYoRHa.png" alt="">
+          <img class="img" src="@/assets/images/jpg/projectView/project-theEndOfYoRHa.jpg" alt="">
           <h2 class="content-title">2023</h2>
           <p class="content-description">
             It was a grade 12 final project,
@@ -91,7 +91,7 @@ import MediaBar from "@/components/MediaBar.vue";
       </div>
       <div class="item" data-text="MultiPage">
         <div class="content">
-          <img class="img" src="@/assets/images/png/projectView/project-multiPageWebsiteAssignment.png" alt="">
+          <img class="img" src="@/assets/images/jpg/projectView/project-multiPageWebsiteAssignment.jpg" alt="">
           <h2 class="content-title">2022</h2>
           <p class="content-description">
             It was a grade 11 final project,

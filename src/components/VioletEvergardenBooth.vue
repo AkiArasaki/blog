@@ -28,7 +28,7 @@
         <h3>By: zhuzhutou<br><span>At: University College</span></h3>
       </div>
     </div>
-    <div class="images slower">
+    <div class="images slower1">
       <img src="@/assets/images/jpg/cosplayView/violetEvergarden/violetEvergarden5.jpg" alt="">
       <div class="text">
         <h3>By: rtbsb520<br><span>At: University College</span></h3>
@@ -136,7 +136,7 @@
   transform: rotate(90deg) translateZ(-.05px) scale(1.2) translateX(0%) translateY(15vh);
 }
 .faster1 {
-  transform: rotate(90deg) translateZ(.05px) scale(1.4) translateX(0%) translateY(10vh);
+  transform: rotate(90deg) translateZ(.05px) scale(1.4) translateX(0%) translateY(12vh);
 }
 .vertical {
   transform: rotate(90deg) translateZ(-.1px) scale(1.6) translateX(0%) translateY(-3vh);
