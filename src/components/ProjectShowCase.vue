@@ -23,7 +23,7 @@
       <h1>EWW</h1>
       <h2>An APP for those allergic</h2>
       <p>A product of heckthon: Product Design Spring 2024,
-        it is an prototype of an mobile APP for those who have allergies in order to protect them from allergens.</p>
+        it is an prototype of an mobile APP to protect people from their allergens.</p>
       <div class="button" style="--i:2">
         <a href="https://www.figma.com/proto/GDKGZHmSSaCx4PwxmGFoQF/pds?node-id=465-3408&starting-point-node-id=465%3A3408&t=NA3IJKdXrmIMZtBH-1">Learn More</a>
       </div>
@@ -173,5 +173,11 @@ a::after {
   right: 0;
   border-left: 0;
   border-top: 0;
+}
+p {
+  color: rgba(238, 238, 238, 0.5);
+}
+h2 {
+  color: rgba(238, 238, 238, 0.5);
 }
 </style>

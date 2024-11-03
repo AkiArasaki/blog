@@ -5,33 +5,33 @@
 <template>
   <div class="container">
     <div class="cards">
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
       <div class="card"><img src="@/assets/images/jpg/homeView/banner.jpg" alt=""></div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
       <div class="card"><img src="@/assets/images/jpg/homeView/banner.jpg" alt=""></div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
       <div class="card"><img src="@/assets/images/jpg/homeView/banner.jpg" alt=""></div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
       <div class="card"><img src="@/assets/images/jpg/homeView/banner.jpg" alt=""></div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
       <div class="card"><img src="@/assets/images/jpg/homeView/banner.jpg" alt=""></div>
-      <div class="card">Whisper</div>
-      <div class="card">Whisper</div>
+      <div class="card">...</div>
+      <div class="card">...</div>
     </div>
   </div>
 </template>

@@ -50,6 +50,7 @@ import OthersBooth from "@/components/OthersBooth.vue";
     </section>
     <section class="others">
       <div class="others-booth">
+        <h2 class="title">Others</h2>
         <OthersBooth/>
       </div>
     </section>
@@ -204,5 +205,12 @@ section {
   width: 80%;
   height: calc(100% - 110px);
   padding-top: 110px;
+  text-align: center;
+}
+.title {
+  color: rgba(238, 238, 238, 0.7);
+  font-size: 46px;
+  font-weight: normal;
+  margin: 0;
 }
 </style>

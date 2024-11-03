@@ -108,7 +108,7 @@ import MediaBar from "@/components/MediaBar.vue";
 .shell {
   width: 100%;
   position: relative;
-  padding: 100px 0;
+  padding: 110px 0;
   transition: 0.3s ease 0s;
   background-attachment: fixed;
   background-size: cover;
@@ -128,7 +128,7 @@ import MediaBar from "@/components/MediaBar.vue";
   position: relative;
 }
 .title {
-  color: #eee;
+  color: rgba(238, 238, 238, 0.7);
   font-size: 46px;
   font-weight: normal;
   margin: 0;

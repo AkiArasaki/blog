@@ -14,4 +14,7 @@ import NavBar from './components/NavBar.vue'
   position: absolute;
   z-index: 100;
 }
+body {
+  font-family: Arial sans-serif;
+}
 </style>

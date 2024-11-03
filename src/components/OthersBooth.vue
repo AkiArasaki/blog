@@ -50,16 +50,13 @@
   grid-auto-rows: 270px;
   grid-auto-flow: dense;
 }
-.container div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-}
 .image {
   width: 100%;
   height: 100%;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 img {
   border-radius: 20px;
@@ -67,12 +64,12 @@ img {
 }
 .image:hover img {
   transform: scale(1.05);
-  filter: blur(2px);
+  filter: blur(2px) brightness(0.6);
 }
 .text {
   position: absolute;
   color: #eee;
-  opacity: 1;
+  opacity: 0;
   transition: 0.5s;
 }
 .image:hover .text {
