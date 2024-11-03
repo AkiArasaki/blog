@@ -28,7 +28,7 @@ const router = createRouter({
 
 router.beforeEach((to, from, next) => {
   window.scroll(0, 0)
-  document.title = "AkiArasaki.com";
+  document.title = "Aki Arasaki";
   next();
 });
 

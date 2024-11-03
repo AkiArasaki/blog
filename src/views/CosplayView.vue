@@ -3,7 +3,8 @@
 import MediaBar from "@/components/MediaBar.vue";
 import SilverWolfBooth from "@/components/SilverWolfBooth.vue";
 import VioletEvergardenBooth from "@/components/VioletEvergardenBooth.vue";
-import TwobBooth from "@/components/TwobBooth.vue";
+import NicoleBooth from "@/components/NicoleBooth.vue";
+import OthersBooth from "@/components/OthersBooth.vue";
 </script>
 
 <template>
@@ -34,19 +35,6 @@ import TwobBooth from "@/components/TwobBooth.vue";
         </div>
       </div>
     </section>
-    <section class="twob">
-      <div class="background">
-        <img src="@/assets/images/jpg/cosplayView/twob/cosplay-2b-back.jpg" alt="">
-      </div>
-      <div class="character twob-character">
-        <img class="twob-character-img" src="../assets/images/png/cosplayView/twob/cosplay-2b-front.png" alt="">
-      </div>
-      <div class="booth">
-        <div class="twob-booth">
-          <TwobBooth/>
-        </div>
-      </div>
-    </section>
     <section class="nicole">
       <div class="background nicole-background">
         <img src="@/assets/images/jpg/cosplayView/nicole/cosplay-nicole-back.jpg" alt="">
@@ -54,18 +42,15 @@ import TwobBooth from "@/components/TwobBooth.vue";
       <div class="character nicole-character">
         <img class="nicole-character-img" src="../assets/images/png/cosplayView/nicole/cosplay-nicole-front.png" alt="">
       </div>
-    </section>
-    <section class="kaiSa">
-      <div class="background kaiSa-background">
-        <img src="@/assets/images/jpg/cosplayView/kaiSa/cosplay-kaiSa-back.jpg" alt="">
-      </div>
-      <div class="character kaiSa-character">
-        <img class="kaiSa-character-img" src="../assets/images/png/cosplayView/kaiSa/cosplay-kaiSa-front.png" alt="">
+      <div class="booth">
+        <div class="nicole-booth">
+          <NicoleBooth/>
+        </div>
       </div>
     </section>
-    <section class="coming-soon">
-      <div class="image-container">
-        <img src="@/assets/images/jpg/cosplayView/cosplay-comingSoon.jpg" alt="">
+    <section class="others">
+      <div class="others-booth">
+        <OthersBooth/>
       </div>
     </section>
     <MediaBar/>
@@ -170,44 +155,23 @@ section {
     transform: perspective(2000px) rotateX(0) skewX(0);
   }
 }
-.twob {
-  filter: brightness(0.7);
-}
-.twob-character {
-  bottom: -8vh;
-  right: 5vw;
-  animation: a4 10s infinite;
-}
-.twob-character-img {
-  transform: scale(1.2);
-}
-.twob-booth {
-  width: 60%;
-  height: 60%;
-  margin-top: 10%;
-  margin-left: 3%;
-}
-@keyframes a4 {
-  0% {
-    transform: translateY(-2%);
-  }
-  50% {
-    transform: translateY(2%);
-  }
-  100% {
-    transform: translateY(-2%);
-  }
-}
 .nicole {
   filter: brightness(0.9);
 }
 .nicole-background {
-  animation: a5 10s infinite;
+  animation: a4 10s infinite;
 }
 .nicole-character {
-  animation: a6 10s infinite;
+  animation: a5 10s infinite;
 }
-@keyframes a5 {
+.nicole-booth {
+  width: 60%;
+  height: 90%;
+  overflow: scroll;
+  margin-top: 5%;
+  margin-left: 35%;
+}
+@keyframes a4 {
   0% {
     filter: blur(3px);
   }
@@ -218,7 +182,7 @@ section {
     filter: blur(3px);
   }
 }
-@keyframes a6 {
+@keyframes a5 {
   0% {
     transform: translateX(2%);
   }
@@ -229,31 +193,16 @@ section {
     transform: translateX(2%);
   }
 }
-.kaiSa {
-  filter: brightness(0.9);
-}
-.kaiSa-character {
-  animation: a4 10s infinite;
-}
-.kaiSa-character-img {
-  transform: scale(1.1);
-}
-.coming-soon {
+.others {
   height: calc(100vh - 110px);
-}
-.image-container {
-  width: 100%;
-  height: 100%;
   display: flex;
-  align-items: center;
   justify-content: center;
-
+  align-items: center;
+  overflow: scroll;
 }
-.image-container img {
-  width: 50%;
-  height: auto;
-  border-radius: 20px;
-  box-shadow: inset 1px 1px 6px rgba(255, 255, 255, 0.3), 2px 2px 15px rgba(0, 0, 0, 0.5);
-  transition: 0.5s;
+.others-booth {
+  width: 80%;
+  height: calc(100% - 110px);
+  padding-top: 110px;
 }
 </style>
