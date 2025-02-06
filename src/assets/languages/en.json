@@ -1,0 +1,68 @@
+{
+  "HomeView": {
+    "title": "Goodnight",
+    "content top": {
+      "name": "AkiArasaki",
+      "subtitle": "How nice would it be, if it's midnight forever ..."
+    },
+    "section1": {
+      "title": "Turning insights into gold",
+      "subtitle": "I have made things like these ...",
+      "description": "I love creating stuff from 0, the satisfaction gained from implementing a function is the best."
+    },
+    "section2": {
+      "title": "Making moments become memories",
+      "subtitle": "I could be ones like these ...",
+      "description": "I love experiencing stories, doing cosplay really leads me into characters' fantastic worlds."
+    }
+  },
+  "ProjectView": {
+    "title": "Development Timeline",
+    "subtitle": "AkiArasaki",
+    "MultiPage": {
+      "title": "MultiPage",
+      "year": "2022",
+      "description": "It was a grade 11 final project, where I started to archive my projects."
+    },
+    "BlackJack": {
+      "title": "BlackJack",
+      "year": "2022",
+      "description": "This is an Java application can be host locally, to play blackJack with friends under same LAN."
+    },
+    "T.E. of YoRHa": {
+      "title": "T.E. of YoRHa",
+      "year": "2023",
+      "description": "It was a grade 12 final project, the winter a1.1 released. 人類に栄光あれ。"
+    },
+    "music_bot": {
+      "title": "music_bot",
+      "year": "2023",
+      "description": "My first discord music bot released, due to the suspension of Groovy, .p is the best command for ever."
+    },
+    "EWW": {
+      "title": "EWW",
+      "year": "2023",
+      "description": "This is an prototype of an mobile APP for those who have allergies in order to protect them from allergens."
+    },
+    "utahime": {
+      "title": "utahime",
+      "year": "2024",
+      "description": "A easy to deploy discord music bot, towards discord users with less experience working with vps and programming."
+    },
+    "Igiari": {
+      "title": "Igiari",
+      "year": "2024",
+      "description": "An Ace Attorney Inspired APP, allows you to execute OBJECTION!"
+    },
+    "UTMCAPS": {
+      "title": "UTMCAPS",
+      "year": "2024",
+      "description": "As a starting member of the club, we created this site from smooth flat."
+    },
+    "This Blog": {
+      "title": "This Blog",
+      "year": "2024",
+      "description": "Yes, you are here. Welcome to this blog."
+    }
+  }
+}
