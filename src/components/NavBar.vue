@@ -1,5 +1,16 @@
 <script setup>
+import { useI18n } from 'vue-i18n'
 
+const { locale } = useI18n({ useScope: 'global' })
+
+function changeLanguage() {
+  const languages = ['en', 'zh', 'ja']
+  const index = languages.indexOf(locale.value)
+
+  locale.value = languages[(index + 1) % languages.length]
+
+  localStorage.setItem('language', locale.value)
+}
 </script>
 
 <template>
@@ -20,11 +31,13 @@
         <div class="button" style="--i:3">
           <router-link to="/cosplay">Cosplay</router-link>
         </div>
-        <div class="button" style="--i:4">
-          <router-link to="/whisper">Whisper</router-link>
-        </div>
       </div>
-      <div class="language">
+      <div class="language"
+           role="button"
+           tabindex="0"
+           @click="changeLanguage"
+           @keydown.enter.prevent="changeLanguage"
+           @keydown.space.prevent="changeLanguage">
         <h2>EN / CH / JP</h2>
       </div>
     </div>
@@ -85,15 +98,15 @@
 .tabs {
   margin: auto auto;
   display: grid;
-  grid-template-columns: 7fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 6fr 1fr 1fr 1fr;
   column-gap: 5vw;
 }
 .button {
   height: 60px;
-  width: 6vw;
+  width: 8vw;
   position: relative;
   transition: all 0.3s;
-  filter: hue-rotate(calc(var(--i) * 60deg));
+  filter: hue-rotate(calc(var(--i) * 120deg));
   border-radius: 20px;
   color: rgba(238, 238, 238, 0.5);
   align-content: center;
@@ -142,5 +155,7 @@ a::after {
 .language {
   margin: auto auto;
   color: rgba(238, 238, 238, 0.3);
+  cursor: pointer;
+  user-select: none;
 }
 </style>

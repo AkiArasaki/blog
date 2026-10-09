@@ -10,7 +10,7 @@ import CosplayShowCase from "@/components/CosplayShowCase.vue";
     <header>
       <div class="img">
         <video src="@/assets/videos/homeView/Emily.mp4" class="video" preload="auto" loop playsinline autoplay muted/>
-        <h1>Goodnight</h1>
+        <h1>{{ $t('HomeView.title') }}</h1>
         <div class="arrow"></div>
         <div class="arrow"></div>
         <div class="arrow"></div>

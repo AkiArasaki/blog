@@ -4,88 +4,218 @@
 
 <template>
   <div class="container">
-    <div class="wide">
-      <div class="image">
+    <div class="cards">
+      <div class="card">
+        <img src="@/assets/images/jpg/cosplayView/nicole/nicole1.jpg" alt="">
+        <div class="text">
+          <span>By: </span><span>At: </span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="text">
+          <span>By: </span><span>At: </span>
+        </div>
+      </div>
+      <div class="card">
         <img src="@/assets/images/jpg/cosplayView/others/nier1.jpg" alt="">
         <div class="text">
-          <h3>By: NesteaC<br><span>At: High Park</span></h3>
+          <span>By: NesteaC</span>
+          <span>At: High Park</span>
         </div>
       </div>
-    </div>
-    <div class="wide">
-      <div class="image">
-        <img src="@/assets/images/jpg/cosplayView/others/nier2.jpg" alt="">
+      <div class="card">
         <div class="text">
-          <h3>By: NesteaC<br><span>At: High Park</span></h3>
+          <span>By: </span><span>At: </span>
         </div>
       </div>
-    </div>
-    <div class="wide">
-      <div class="image">
-        <img src="@/assets/images/jpg/cosplayView/others/nier3.jpg" alt="">
+      <div class="card">
         <div class="text">
-          <h3>By: Katherine<br><span>At: AnimeNorth2022</span></h3>
+          <span>By: </span><span>At: </span>
         </div>
       </div>
-    </div>
-    <div class="wide">
-      <div class="image">
+      <div class="card">
         <img src="@/assets/images/jpg/cosplayView/others/kaiSa1.jpg" alt="">
         <div class="text">
-          <h3>By: Janna<br><span>At: AnimeNorth2024</span></h3>
+          <span>By: Janna</span>
+          <span>At: AnimeNorth2024</span>
         </div>
       </div>
+      <div class="card">
+        <div class="text">
+          <span>By: </span><span>At: </span>
+        </div>
+      </div>
+      <div class="card">
+        <div class="text">
+          <span>By: </span><span>At: </span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="@/assets/images/jpg/cosplayView/others/nier2.jpg" alt="">
+        <div class="text">
+          <span>By: NesteaC</span>
+          <span>At: High Park</span>
+        </div>
+      </div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card">
+        <img src="@/assets/images/jpg/cosplayView/others/nier3.jpg" alt="">
+        <div class="text">
+          <span>By: Katherine</span>
+          <span>At: AnimeNorth2022</span>
+        </div>
+      </div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
+      <div class="card"><span>...</span></div>
     </div>
   </div>
 </template>
 
+
 <style scoped>
 .container {
   width: 100%;
-  height: 100%;
+  min-block-size: 100%;
   display: grid;
-  padding: 20px;
-  grid-gap: 1vw;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  grid-auto-rows: 270px;
-  grid-auto-flow: dense;
+  place-content: center;
 }
-.image {
+
+@keyframes slide-fade-in {
+  from {
+    opacity: 0;
+    scale: 0.8;
+    translate: 0 15vh;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+    translate: 0 0;
+  }
+}
+
+.cards {
+  --gap: 2rem;
+  --columns: 5;
+
+  display: grid;
+  gap: var(--gap);
+  grid-auto-flow: dense;
+
+  grid-template-columns: repeat(var(--columns), minmax(0, 1fr));
+  grid-auto-rows: calc(
+    (90vw - (var(--columns) - 1) * var(--gap)) / var(--columns)
+  );
+
+  width: 100%;
+  padding: 0 5vw;
+  box-sizing: border-box;
+}
+
+.card {
+  animation: slide-fade-in both;
+  animation-timeline: view();
+  animation-range: entry 0% contain 50%;
+
+  position: relative;
+  border-radius: 20px;
+  line-height: 6;
+  font-size: 32px;
+  letter-spacing: 5px;
+  color: rgba(238, 238, 238, 0.7);
+
   width: 100%;
   height: 100%;
-  position: relative;
+  min-width: 0;
+  min-height: 0;
+
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(4px);
+  box-shadow:
+    inset 1px 1px 6px rgba(255, 255, 255, 0.3),
+    2px 2px 15px rgba(0, 0, 0, 0.5);
+
+  transform: scale(1);
+  transition: transform 0.5s cubic-bezier(0.22, 1, 0.36, 1);
 }
-img {
-  border-radius: 20px;
-  transition: 0.5s;
-}
-.image:hover img {
+
+.card:hover {
   transform: scale(1.05);
-  filter: blur(2px) brightness(0.6);
+  z-index: 1;
 }
+
+.card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.5s ease-in-out;
+}
+
+.card:hover img {
+  filter: blur(2px) brightness(0.8);
+}
+
 .text {
   position: absolute;
-  color: #eee;
-  opacity: 0;
-  transition: 0.5s;
+  inset: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.image:hover .text {
+
+.card span {
+  all: unset;
+  display: block;
+
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(238, 238, 238, 0.7);
+
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.card:hover span {
   opacity: 1;
 }
-.wide {
+
+.card:nth-of-type(3n) {
   grid-column: span 2;
 }
-.tall {
-  grid-row: span 2;
-}
-.big {
+
+.card:nth-of-type(7n) {
   grid-column: span 2;
   grid-row: span 2;
-}
-.wide .image img {
-  height: 100%;
 }
 </style>

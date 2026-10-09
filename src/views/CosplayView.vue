@@ -202,9 +202,9 @@ section {
   overflow: scroll;
 }
 .others-booth {
-  width: 80%;
+  width: 100%;
   height: calc(100% - 110px);
-  padding-top: 110px;
+  padding-top: 55px;
   text-align: center;
 }
 .title {
