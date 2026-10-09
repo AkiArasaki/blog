@@ -129,7 +129,8 @@
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  transition: 0.5s;
+  transform: scale(0);
+  transition: transform 0.5s, opacity 0.5s;
 }
 .photo-booth .photo-container:hover {
   width: 12vw;
@@ -139,7 +140,7 @@
 .photo-booth .photo-container:hover .glass {
   scale: 1;
   opacity: 1;
-  transform: rotate(20deg);
+  transform: scale(1) rotate(20deg);
 }
 .photo-booth .photo-container .glass h3 {
   font-size: 1.25em;
