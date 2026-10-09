@@ -8,10 +8,9 @@
       <div class="image">
         <img src="@/assets/images/jpg/projectView/project-utahime.jpg" alt="">
       </div>
-      <h1>Utahime</h1>
-      <h2>A discord music bot</h2>
-      <p>A easy to deploy discord music bot,
-        towards discord users with less experience working with vps and programming.</p>
+      <h1>{{ $t('ProjectShowCase.Project1.title') }}</h1>
+      <h2>{{ $t('ProjectShowCase.Project1.subtitle') }}</h2>
+      <p>{{ $t('ProjectShowCase.Project1.description') }}</p>
       <div class="button" style="--i:1">
         <a href="https://github.com/AkiArasaki/utahime">Learn More</a>
       </div>
@@ -20,10 +19,9 @@
       <div class="image">
         <img src="../assets/images/jpg/projectView/project-eww.jpg" alt="">
       </div>
-      <h1>EWW</h1>
-      <h2>An APP for those allergic</h2>
-      <p>A product of heckthon: Product Design Spring 2024,
-        it is an prototype of an mobile APP to protect people from their allergens.</p>
+      <h1>{{ $t('ProjectShowCase.Project2.title') }}</h1>
+      <h2>{{ $t('ProjectShowCase.Project2.subtitle') }}</h2>
+      <p>{{ $t('ProjectShowCase.Project2.description') }}</p>
       <div class="button" style="--i:2">
         <a href="https://www.figma.com/proto/GDKGZHmSSaCx4PwxmGFoQF/pds?node-id=465-3408&starting-point-node-id=465%3A3408&t=NA3IJKdXrmIMZtBH-1">Learn More</a>
       </div>
@@ -32,10 +30,9 @@
       <div class="image">
         <img src="@/assets/images/jpg/projectView/project-igiari.jpg" alt="">
       </div>
-      <h1>Igiari</h1>
-      <h2>An APP to OBJECTION!</h2>
-      <p>An Ace Attorney Inspired APP, allows you to execute OBJECTION!
-        anything at any time, any where like Phoenix Wright.</p>
+      <h1>{{ $t('ProjectShowCase.Project3.title') }}</h1>
+      <h2>{{ $t('ProjectShowCase.Project3.subtitle') }}</h2>
+      <p>{{ $t('ProjectShowCase.Project3.description') }}</p>
       <div class="button" style="--i:3">
         <a href="https://github.com/AkiArasaki/Igiari">Learn More</a>
       </div>
@@ -49,7 +46,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3vw;
   padding: 1vw;
 }
 .card {

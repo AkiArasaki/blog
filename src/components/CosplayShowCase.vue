@@ -12,8 +12,8 @@
         <img src="../assets/images/png/homeView/kaiSa-1.png" alt="">
       </div>
       <div class="content">
-        <h1>Kai'Sa</h1>
-        <p>League of Legends</p>
+        <h1>{{ $t('CosplayShowCase.Character1.name') }}</h1>
+        <p>{{ $t('CosplayShowCase.Character1.source') }}</p>
       </div>
     </div>
     <div class="card">
@@ -24,8 +24,8 @@
         <img src="../assets/images/png/homeView/silverWolf-1.png" alt="">
       </div>
       <div class="content">
-        <h1>Silver Wolf</h1>
-        <p>Honkai: Star Rail</p>
+        <h1>{{ $t('CosplayShowCase.Character2.name') }}</h1>
+        <p>{{ $t('CosplayShowCase.Character2.source') }}</p>
       </div>
     </div>
   </div>

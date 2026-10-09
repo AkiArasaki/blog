@@ -6,8 +6,8 @@ import MediaBar from "@/components/MediaBar.vue";
 <template>
   <div class="shell">
     <div class="header">
-      <h2 class="title">Development Timeline</h2>
-      <h3 class="subtitle">AkiArasaki</h3>
+      <h2 class="title">{{ $t('ProjectView.title') }}</h2>
+      <h3 class="subtitle">{{ $t('ProjectView.subtitle') }}</h3>
     </div>
     <div class="timeline">
       <div class="item" data-text="This Blog">
@@ -15,7 +15,7 @@ import MediaBar from "@/components/MediaBar.vue";
           <img class="img" src="@/assets/images/jpg/projectView/project-blog.jpg" alt="">
           <h2 class="content-title">2024</h2>
           <p class="content-description">
-            Yes, you are here. Welcome to this blog
+            {{ $t('ProjectView.This Blog.description') }}
           </p>
         </div>
       </div>
@@ -24,8 +24,7 @@ import MediaBar from "@/components/MediaBar.vue";
           <img class="img" src="@/assets/images/jpg/projectView/project-UTMCAPSWebsite.jpg" alt="">
           <h2 class="content-title">2024</h2>
           <p class="content-description">
-            As a starting member of the club,
-            we created this site from smooth flat.
+            {{ $t('ProjectView.UTMCAPS.description') }}
           </p>
         </div>
       </div>
@@ -34,8 +33,7 @@ import MediaBar from "@/components/MediaBar.vue";
           <img class="img" src="@/assets/images/jpg/projectView/project-igiari.jpg" alt="">
           <h2 class="content-title">2024</h2>
           <p class="content-description">
-            An Ace Attorney Inspired APP,
-            allows you to execute OBJECTION!
+            {{ $t('ProjectView.Igiari.description') }}
           </p>
         </div>
       </div>
@@ -44,8 +42,7 @@ import MediaBar from "@/components/MediaBar.vue";
           <img class="img" src="@/assets/images/jpg/projectView/project-utahime.jpg" alt="">
           <h2 class="content-title">2024</h2>
           <p class="content-description">
-            A easy to deploy discord music bot,
-            towards discord users with less experience working with vps and programming.
+            {{ $t('ProjectView.utahime.description') }}
           </p>
         </div>
       </div>
@@ -54,8 +51,7 @@ import MediaBar from "@/components/MediaBar.vue";
           <img class="img" src="@/assets/images/jpg/projectView/project-eww.jpg" alt="">
           <h2 class="content-title">2023</h2>
           <p class="content-description">
-            This is an prototype of an mobile APP for those who have allergies
-            in order to protect them from allergens.
+            {{ $t('ProjectView.EWW.description') }}
           </p>
         </div>
       </div>
@@ -64,8 +60,7 @@ import MediaBar from "@/components/MediaBar.vue";
           <img class="img" src="@/assets/images/jpg/projectView/project-discord_music_bot.jpg" alt="">
           <h2 class="content-title">2023</h2>
           <p class="content-description">
-            My first discord music bot released, due to the suspension of Groovy,
-            .p is the best command for ever.
+            {{ $t('ProjectView.music_bot.description') }}
           </p>
         </div>
       </div>
@@ -74,8 +69,7 @@ import MediaBar from "@/components/MediaBar.vue";
           <img class="img" src="@/assets/images/jpg/projectView/project-theEndOfYoRHa.jpg" alt="">
           <h2 class="content-title">2023</h2>
           <p class="content-description">
-            It was a grade 12 final project,
-            the winter a1.1 released. 人類に栄光あれ。
+            {{ $t('ProjectView.YoRHa.description') }}
           </p>
         </div>
       </div>
@@ -84,8 +78,7 @@ import MediaBar from "@/components/MediaBar.vue";
           <img class="img" src="@/assets/images/jpg/projectView/project-blackJack.jpg" alt="">
           <h2 class="content-title">2022</h2>
           <p class="content-description">
-            This is an Java application can be host locally,
-            to play blackJack with friends under same LAN.
+            {{ $t('ProjectView.BlackJack.description') }}
           </p>
         </div>
       </div>
@@ -94,8 +87,7 @@ import MediaBar from "@/components/MediaBar.vue";
           <img class="img" src="@/assets/images/jpg/projectView/project-multiPageWebsiteAssignment.jpg" alt="">
           <h2 class="content-title">2022</h2>
           <p class="content-description">
-            It was a grade 11 final project,
-            where I started to archive my projects.
+            {{ $t('ProjectView.MultiPage.description') }}
           </p>
         </div>
       </div>

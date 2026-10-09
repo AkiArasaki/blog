@@ -19,30 +19,28 @@ import CosplayShowCase from "@/components/CosplayShowCase.vue";
     <div class="main">
       <main>
         <div class="content top">
-          <h3>AkiArasaki</h3>
-          <p>How nice would it be, if it's midnight forever ...</p>
+          <h3>{{ $t('HomeView.content top.name') }}</h3>
+          <p>{{ $t('HomeView.content top.subtitle') }}</p>
         </div>
         <div class="parallax p1">
-          <h3>Turning insights into gold</h3>
+          <h3>{{ $t('HomeView.section1.title') }}</h3>
         </div>
         <div class="content">
           <ProjectShowCase/>
           <ShowCaseDescription
             hue-rotation="4"
-            title="I have made things like these ..."
-            description="I love creating stuff from 0,
-            the satisfaction gained from implementing a function is the best."
+            :title="$t('HomeView.section1.subtitle')"
+            :description="$t('HomeView.section1.description')"
             link-to="/project"/>
         </div>
         <div class="parallax p2">
-          <h3>Making moments become memories</h3>
+          <h3>{{ $t('HomeView.section2.title') }}</h3>
         </div>
         <div class="content">
           <ShowCaseDescription
             hue-rotation="1"
-            title="I could be ones like these ..."
-            description="I love experiencing stories,
-            doing cosplay really leads me into characters' fantastic worlds."
+            :title="$t('HomeView.section2.subtitle')"
+            :description="$t('HomeView.section2.description')"
             link-to="/cosplay"/>
           <CosplayShowCase/>
         </div>
