@@ -8,12 +8,15 @@
       <div class="card">
         <img src="@/assets/images/jpg/cosplayView/nicole/nicole1.jpg" alt="">
         <div class="text">
-          <span>By: </span><span>At: </span>
+          <span>By: tang tu</span>
+          <span>At: MIAOMIAOGANG 04</span>
         </div>
       </div>
       <div class="card">
+        <img src="@/assets/images/jpg/cosplayView/silverWolf/silverWolf10.jpg" alt="">
         <div class="text">
-          <span>By: </span><span>At: </span>
+          <span>By: tusu</span>
+          <span>At: AnimeNorth2024</span>
         </div>
       </div>
       <div class="card">
@@ -24,13 +27,17 @@
         </div>
       </div>
       <div class="card">
+        <img src="@/assets/images/jpg/cosplayView/nicole/nicole3.jpg" alt="">
         <div class="text">
-          <span>By: </span><span>At: </span>
+          <span>By: tang tu</span>
+          <span>At: MIAOMIAOGANG 04</span>
         </div>
       </div>
       <div class="card">
+        <img src="@/assets/images/jpg/cosplayView/others/a21.jpg" alt="">
         <div class="text">
-          <span>By: </span><span>At: </span>
+          <span>By: Huang He</span>
+          <span>At: Kariya Park</span>
         </div>
       </div>
       <div class="card">
@@ -41,13 +48,17 @@
         </div>
       </div>
       <div class="card">
+        <img src="@/assets/images/jpg/cosplayView/silverWolf/silverWolf5.jpg" alt="">
         <div class="text">
-          <span>By: </span><span>At: </span>
+          <span>By: rtbsb520</span>
+          <span>At: ZuiBeerBar</span>
         </div>
       </div>
       <div class="card">
+        <img src="@/assets/images/jpg/cosplayView/nicole/nicole2.jpg" alt="">
         <div class="text">
-          <span>By: </span><span>At: </span>
+          <span>By: tang tu</span>
+          <span>At: MIAOMIAOGANG 04</span>
         </div>
       </div>
       <div class="card">
@@ -57,8 +68,20 @@
           <span>At: High Park</span>
         </div>
       </div>
-      <div class="card"><span>...</span></div>
-      <div class="card"><span>...</span></div>
+      <div class="card">
+        <img src="@/assets/images/jpg/cosplayView/others/cissia1.jpg" alt="">
+        <div class="text">
+          <span>By: Canned Fox</span>
+          <span>At: BEIJING 03</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="@/assets/images/jpg/cosplayView/others/a22.jpg" alt="">
+        <div class="text">
+          <span>By: Lu Ren Jia</span>
+          <span>At: Kariya Park</span>
+        </div>
+      </div>
       <div class="card">
         <img src="@/assets/images/jpg/cosplayView/others/nier3.jpg" alt="">
         <div class="text">
@@ -66,10 +89,20 @@
           <span>At: AnimeNorth2022</span>
         </div>
       </div>
-      <div class="card"><span>...</span></div>
-      <div class="card"><span>...</span></div>
-      <div class="card"><span>...</span></div>
-      <div class="card"><span>...</span></div>
+      <div class="card">
+        <img src="@/assets/images/jpg/cosplayView/others/cissia2.jpg" alt="">
+        <div class="text">
+          <span>By: Canned Fox</span>
+          <span>At: BEIJING 03</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="@/assets/images/jpg/cosplayView/others/belle1.jpg" alt="">
+        <div class="text">
+          <span>By: Kong Shang</span>
+          <span>At: Private Studio</span>
+        </div>
+      </div>
       <div class="card"><span>...</span></div>
       <div class="card"><span>...</span></div>
       <div class="card"><span>...</span></div>
@@ -177,7 +210,7 @@
 }
 
 .card:hover img {
-  filter: blur(2px) brightness(0.8);
+  filter: blur(2px) brightness(0.5);
 }
 
 .text {
@@ -216,6 +249,10 @@
 
 .card:nth-of-type(7n) {
   grid-column: span 2;
+  grid-row: span 2;
+}
+
+.card:nth-of-type(5n) {
   grid-row: span 2;
 }
 </style>

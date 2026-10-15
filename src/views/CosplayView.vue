@@ -1,9 +1,7 @@
 <script setup>
-
 import MediaBar from "@/components/MediaBar.vue";
 import SilverWolfBooth from "@/components/SilverWolfBooth.vue";
 import VioletEvergardenBooth from "@/components/VioletEvergardenBooth.vue";
-import NicoleBooth from "@/components/NicoleBooth.vue";
 import OthersBooth from "@/components/OthersBooth.vue";
 </script>
 
@@ -32,19 +30,6 @@ import OthersBooth from "@/components/OthersBooth.vue";
       <div class="booth">
         <div class="violet-evergarden-booth">
           <VioletEvergardenBooth/>
-        </div>
-      </div>
-    </section>
-    <section class="nicole">
-      <div class="background nicole-background">
-        <img src="@/assets/images/jpg/cosplayView/nicole/cosplay-nicole-back.jpg" alt="">
-      </div>
-      <div class="character nicole-character">
-        <img class="nicole-character-img" src="../assets/images/png/cosplayView/nicole/cosplay-nicole-front.png" alt="">
-      </div>
-      <div class="booth">
-        <div class="nicole-booth">
-          <NicoleBooth/>
         </div>
       </div>
     </section>

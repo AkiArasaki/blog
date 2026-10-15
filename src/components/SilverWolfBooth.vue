@@ -43,15 +43,15 @@
       </div>
     </div>
     <div class="photo-container">
-      <div class="photo"><img src="../assets/images/jpg/cosplayView/silverWolf/silverWolf8.jpg" alt=""></div>
+      <div class="photo"><img src="../assets/images/jpg/cosplayView/nicole/nicole7.jpg" alt=""></div>
       <div class="glass">
-        <h3>By: mofumofu<br><span>At: AnimeNorth2024</span></h3>
+        <h3>By: tang tu<br><span>At: MIAOMIAOGANG 04</span></h3>
       </div>
     </div>
     <div class="photo-container">
-      <div class="photo"><img src="../assets/images/jpg/cosplayView/silverWolf/silverWolf9.jpg" alt=""></div>
+      <div class="photo"><img src="../assets/images/jpg/cosplayView/nicole/nicole6.jpg" alt=""></div>
       <div class="glass">
-        <h3>By: mofumofu<br><span>At: AnimeNorth2024</span></h3>
+        <h3>By: tang tu<br><span>At: MIAOMIAOGANG 04</span></h3>
       </div>
     </div>
     <div class="photo-container">
@@ -155,3 +155,5 @@
   font-size: 0.5em;
 }
 </style>
+<script setup lang="ts">
+</script>
