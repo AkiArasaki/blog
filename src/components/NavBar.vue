@@ -38,7 +38,13 @@ function changeLanguage() {
            @click="changeLanguage"
            @keydown.enter.prevent="changeLanguage"
            @keydown.space.prevent="changeLanguage">
-        <h2>EN / CH / JP</h2>
+        <h2>
+          <span :class="{ active: locale === 'en' }">EN</span>
+          /
+          <span :class="{ active: locale === 'zh' }">CH</span>
+          /
+          <span :class="{ active: locale === 'ja' }">JP</span>
+        </h2>
       </div>
     </div>
   </div>
@@ -157,5 +163,17 @@ a::after {
   color: rgba(238, 238, 238, 0.3);
   cursor: pointer;
   user-select: none;
+}
+.language span {
+  color: rgba(238, 238, 238, 0.3);
+  transition: color 0.4s ease, text-shadow 0.4s ease;
+}
+.language span.active {
+  color: rgba(238, 238, 238, 0.8);
+
+  text-shadow:
+    0 0 3px rgba(238, 238, 238, 0.25),
+    0 0 8px rgba(238, 238, 238, 0.12),
+    0 0 14px rgba(238, 238, 238, 0.05);
 }
 </style>
