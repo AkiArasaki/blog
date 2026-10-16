@@ -12,7 +12,7 @@
       <h2>{{ $t('ProjectShowCase.Project1.subtitle') }}</h2>
       <p>{{ $t('ProjectShowCase.Project1.description') }}</p>
       <div class="button" style="--i:1">
-        <a href="https://github.com/AkiArasaki/utahime">Learn More</a>
+        <a href="https://github.com/AkiArasaki/utahime">{{ $t('Button.more') }}</a>
       </div>
     </div>
     <div class="card">
@@ -23,7 +23,7 @@
       <h2>{{ $t('ProjectShowCase.Project2.subtitle') }}</h2>
       <p>{{ $t('ProjectShowCase.Project2.description') }}</p>
       <div class="button" style="--i:2">
-        <a href="https://www.figma.com/proto/GDKGZHmSSaCx4PwxmGFoQF/pds?node-id=465-3408&starting-point-node-id=465%3A3408&t=NA3IJKdXrmIMZtBH-1">Learn More</a>
+        <a href="https://www.figma.com/proto/GDKGZHmSSaCx4PwxmGFoQF/pds?node-id=465-3408&starting-point-node-id=465%3A3408&t=NA3IJKdXrmIMZtBH-1">{{ $t('Button.more') }}</a>
       </div>
     </div>
     <div class="card">
@@ -34,7 +34,7 @@
       <h2>{{ $t('ProjectShowCase.Project3.subtitle') }}</h2>
       <p>{{ $t('ProjectShowCase.Project3.description') }}</p>
       <div class="button" style="--i:3">
-        <a href="https://github.com/AkiArasaki/Igiari">Learn More</a>
+        <a href="https://github.com/AkiArasaki/Igiari">{{ $t('Button.more') }}</a>
       </div>
     </div>
   </div>

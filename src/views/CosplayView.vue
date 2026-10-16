@@ -35,7 +35,7 @@ import OthersBooth from "@/components/OthersBooth.vue";
     </section>
     <section class="others">
       <div class="others-booth">
-        <h2 class="title">Others</h2>
+        <h2 class="title">{{ $t('CosplayView.title') }}</h2>
         <OthersBooth/>
       </div>
     </section>

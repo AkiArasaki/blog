@@ -41,7 +41,7 @@ export default {
     </div>
     <div class="button-box">
       <div class="button" :style="hue">
-        <router-link :to=linkTo>Learn More</router-link>
+        <router-link :to=linkTo>{{ $t('Button.more') }}</router-link>
       </div>
     </div>
   </div>

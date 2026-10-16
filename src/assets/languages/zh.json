@@ -6,66 +6,96 @@
       "subtitle": "如果永远是深夜，那该有多好 ..."
     },
     "section1": {
-      "title": "Turning insights into gold",
-      "subtitle": "I have made things like these ...",
-      "description": "I love creating stuff from 0, the satisfaction gained from implementing a function is the best."
+      "title": "为了活着，可以做什么",
+      "subtitle": "我已经握在手心的...",
+      "description": "从0开始是一件很美妙的事，当终于做到了最开始的心中所想，爽麻了！"
     },
     "section2": {
-      "title": "Making moments become memories",
-      "subtitle": "I could be ones like these ...",
-      "description": "I love experiencing stories, doing cosplay really leads me into characters' fantastic worlds."
+      "title": "为了做什么，所以活着",
+      "subtitle": "我所畅想向往的...",
+      "description": "比起读故事，体验故事听起来更酷一点，cosplay便是我走进那些故事的门扉。"
     }
   },
   "ProjectView": {
-    "title": "Development Timeline",
+    "title": "开发时间线",
     "subtitle": "AkiArasaki",
     "MultiPage": {
       "title": "MultiPage",
       "year": "2022",
-      "description": "It was a grade 11 final project, where I started to archive my projects."
+      "description": "11年纪的毕业设计，这条时间线的另一端线头，在那年我开始了收集，管理自己做过的项目。"
     },
     "BlackJack": {
       "title": "BlackJack",
       "year": "2022",
-      "description": "This is an Java application can be host locally, to play blackJack with friends under same LAN."
+      "description": "对本地网络学习后的一次小小尝试，在同一本地网络下畅玩哦。"
     },
-    "T.E. of YoRHa": {
+    "YoRHa": {
       "title": "T.E. of YoRHa",
       "year": "2023",
-      "description": "It was a grade 12 final project, the winter a1.1 released. 人類に栄光あれ。"
+      "description": "在12年级毕业设计中对尼尔系列的小小致敬，人類に栄光あれ。"
     },
     "music_bot": {
       "title": "music_bot",
       "year": "2023",
-      "description": "My first discord music bot released, due to the suspension of Groovy, .p is the best command for ever."
+      "description": "公开发布的第一款程序，.p 是这个世界上最好的指令，永远永远！"
     },
     "EWW": {
       "title": "EWW",
       "year": "2023",
-      "description": "This is an prototype of an mobile APP for those who have allergies in order to protect them from allergens."
+      "description": "在一次竞赛中对UI/UX设计的尝试，希望有一天真的可以有一款针对过敏患者饮食安全设计的APP。"
     },
     "utahime": {
       "title": "utahime",
       "year": "2024",
-      "description": "A easy to deploy discord music bot, towards discord users with less experience working with vps and programming."
+      "description": "我想让拥有自己的Discord Music Bot真诚成为一件低门槛的事情，所以对初版进行了很多优化。"
     },
     "Igiari": {
       "title": "Igiari",
       "year": "2024",
-      "description": "An Ace Attorney Inspired APP, allows you to execute OBJECTION!"
+      "description": "我超喜欢玩逆转裁判，谁能拒绝随时从兜里掏出手机，对朋友来一句「異議あり」呢？"
     },
     "UTMCAPS": {
       "title": "UTMCAPS",
       "year": "2024",
-      "description": "As a starting member of the club, we created this site from smooth flat."
+      "description": "就像主页说的，作为创始成员，从第一个commit开始创建的官网。"
     },
     "This Blog": {
       "title": "This Blog",
       "year": "2024",
-      "description": "Yes, you are here. Welcome to this blog."
+      "description": "就是这里哦，你现在所在的地方！"
     }
   },
   "CosplayView": {
-    "title": "Others"
+    "title": "更丰富的故事，更多彩的世界"
+  },
+  "ProjectShowCase": {
+    "Project1": {
+      "title": "Utahime",
+      "subtitle": "A discord music bot",
+      "description": "A easy to deploy discord music bot, towards discord users with less experience working with vps and programming."
+    },
+    "Project2": {
+      "title": "EWW",
+      "subtitle": "An APP for those allergic",
+      "description": "A product of heckthon: Product Design Spring 2024, it is an prototype of an mobile APP to protect people from their allergens."
+    },
+    "Project3": {
+      "title": "Igiari",
+      "subtitle": "An APP to OBJECTION!",
+      "description": "An Ace Attorney Inspired APP, allows you to execute OBJECTION! anything at any time, any where like Phoenix Wright."
+    }
+  },
+  "CosplayShowCase": {
+    "Character1": {
+      "name": "卡莎",
+      "source": "英雄联盟"
+    },
+    "Character2": {
+      "name": "银狼",
+      "source": "崩坏：星穹铁道"
+    }
+  },
+  "Button": {
+    "more": "了解更多"
   }
 }

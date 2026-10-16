@@ -94,5 +94,8 @@
       "name": "Silver Wolf",
       "source": "Honkai: Star Rail"
     }
+  },
+  "Button": {
+    "more": "Learn More"
   }
 }

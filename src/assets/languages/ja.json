@@ -29,7 +29,7 @@
       "year": "2022",
       "description": "This is an Java application can be host locally, to play blackJack with friends under same LAN."
     },
-    "T.E. of YoRHa": {
+    "YoRHa": {
       "title": "T.E. of YoRHa",
       "year": "2023",
       "description": "It was a grade 12 final project, the winter a1.1 released. 人類に栄光あれ。"
@@ -67,5 +67,32 @@
   },
   "CosplayView": {
     "title": "Others"
+  },
+  "ProjectShowCase": {
+    "Project1": {
+      "title": "Utahime",
+      "subtitle": "A discord music bot",
+      "description": "A easy to deploy discord music bot, towards discord users with less experience working with vps and programming."
+    },
+    "Project2": {
+      "title": "EWW",
+      "subtitle": "An APP for those allergic",
+      "description": "A product of heckthon: Product Design Spring 2024, it is an prototype of an mobile APP to protect people from their allergens."
+    },
+    "Project3": {
+      "title": "Igiari",
+      "subtitle": "An APP to OBJECTION!",
+      "description": "An Ace Attorney Inspired APP, allows you to execute OBJECTION! anything at any time, any where like Phoenix Wright."
+    }
+  },
+  "CosplayShowCase": {
+    "Character1": {
+      "name": "Kai'Sa",
+      "source": "League of Legends"
+    },
+    "Character2": {
+      "name": "Silver Wolf",
+      "source": "Honkai: Star Rail"
+    }
   }
 }
